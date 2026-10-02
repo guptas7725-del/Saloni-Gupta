@@ -1,0 +1,144 @@
+[30-09-2026 12:16] komal: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department Navigation</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        /* Professional Navigation Bar */
+        .navbar {
+            background-color: #003366; /* Deep Academic Blue */
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .nav-menu li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Hover Effect */
+        .nav-menu li a:hover {
+            background-color: #ffcc00; /* Vibrant Accent Gold */
+            color: #003366;
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            color: #003366;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding-top: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Professional Navigation Menu -->
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <!-- Internal section links -->
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#labs">Labs</a></li>
+            <li><a href="#assignment">Assignment</a></li>
+            <li><a href="#notices">Notices</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <!-- External link example -->
+            <li><a href="https://university-main-portal.com" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Sections -->
+    <div class="container">
+        <section id="home">
+            <h1>Welcome to the Department Portal</h1>
+            <p>This is the landing page for our academic department. Use the navigation bar above to jump directly to specific sections or visit external portals.</p>
+        </section>
+
+        <section id="about">
+            <h1>About Us</h1>
+            <p>Our department is dedicated to providing high-quality education and fostering innovative research developments.</p>
+        </section>
+
+        <section id="courses">
+            <h1>Courses Offered</h1>
+            <p>Explore undergraduate and postgraduate programs designed to prepare students for modern industry challenges.</p>
+        </section>
+
+        <section id="faculty">
+            <h1>Our Faculty</h1>
+            <p>Meet our highly qualified professors, lecturers, and researchers leading our academic tracks.</p>
+        </section>
+
+        <section id="labs">
+            <h1>Laboratory Facilities</h1>
+            <p>Our practical computer and hardware labs are fully equipped with state-of-the-art instruments and tools.</p>
+        </section>
+[30-09-2026 12:16] komal: <section id="assignment">
+            <h1>Assignments</h1>
+            <p>Download relevant project guidelines, homework problem sets, and submission rubrics here.</p>
+        </section>
+
+        <section id="notices">
+            <h1>Notices & Announcements</h1>
+            <p>Stay up to date with the latest schedules, exams, holidays, and departmental events.</p>
+        </section>
+
+        <section id="gallery">
+            <h1>Department Gallery</h1>
+            <p>A collection of visual highlights showcasing campus life, workshop activities, and student achievements.</p>
+        </section>
+    </div>
+
+</body>
+</html>

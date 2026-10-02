@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Image Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+        .gallery-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 8px;
+            max-width: 250px;
+            text-align: center;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .caption {
+            margin-top: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1 style="text-align:center;">Our College Campus Gallery</h1>
+        
+        <div class="gallery">
+            <!-- Image 1 -->
+            <figure class="gallery-item">
+                <img src="main-building.jpg" 
+                     alt="Three-story red brick main college building with white columns at the entrance surrounded by green lawns." 
+                     width="400" height="300">
+                <figcaption class="caption">Main Administration Block, ABC College</figcaption>
+            </figure>
+
+            <!-- Image 2 -->
+            <figure class="gallery-item">
+                <img src="central-library.jpg" 
+                     alt="Sunlit interior of the modern university library showing rows of study desks and tall book shelves." 
+                     width="400" height="300">
+                <figcaption class="caption">Central Engineering Library</figcaption>
+            </figure>
+
+            <!-- Image 3 -->
+            <figure class="gallery-item">
+                <img src="science-lab.jpg" 
+                     alt="Students wearing white coats conducting chemistry experiments in a fully equipped modern laboratory." 
+                     width="400" height="300">
+                <figcaption class="caption">Advanced Chemical Science Lab</figcaption>
+            </figure>
+        </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Personal Profile</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Alex Morgan</h1>
+        <p>Computer Science Student & Aspiring Web Developer</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        
+        <!-- About / Introduction Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile-placeholder.jpg" alt="Alex Morgan's Profile Picture" width="150" height="150">
+            <p>Hello! I am a passionate computer science student who loves building useful things for the web. I enjoy solving complex logic problems and exploring new modern technologies.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>Bachelor of Science in Computer Science</strong><br>
+                    State University (2024 - Present)
+                </li>
+                <li>
+                    <strong>High School Diploma</strong><br>
+                    Greenwood High School (2020 - 2024)
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Python Programming</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies">
+            <h2>Hobbies & Interests</h2>
+            <p>When I'm not coding, you can find me practicing photography, playing chess, or reading sci-fi novels.</p>
+        </section>
+
+        <!-- Contact / Hyperlinks Section -->
+        <section id="connect">
+            <h2>Connect With Me</h2>
+            <p>Feel free to reach out via my professional profiles:</p>
+            <ul>
+                <li><a href="https://github.com" target="_blank">GitHub Profile</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn Profile</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Alex Morgan. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Department of Computer Science</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>University Logo</h1>
+        <h2>Department of Computer Science</h2>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#labs">Labs</a></li>
+            <li><a href="#assignments">Assignments</a></li>
+            <li><a href="#notices">Notices</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        
+        <!-- Section for Courses/Assignments -->
+        <section id="assignments">
+            <h2>Current Assignments</h2>
+            <article>
+                <h3>Lab Assignment 1: HTML5 Basics</h3>
+                <p>Create a structured webpage using semantic tags.</p>
+            </article>
+            <article>
+                <h3>Lab Assignment 2: CSS Layouts</h3>
+                <p>Style the structural webpage using modern flexbox properties.</p>
+            </article>
+        </section>
+
+        <!-- Section for Labs -->
+        <section id="labs">
+            <h2>Department Laboratories</h2>
+            <p>Information about the Advanced AI Research Lab and Network Security Lab.</p>
+        </section>
+
+        <!-- Sidebar / Secondary Content -->
+        <aside id="notices">
+            <h2>Latest Announcements</h2>
+            <ul>
+                <li>Mid-term exams start next week.</li>
+                <li>Project submission deadline extended to Friday.</li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Department of Computer Science. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
